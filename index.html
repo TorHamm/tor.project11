@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+
+  <main class="container">
+
+    <div class="account">
+      <div class="profile">
+        <img src="images/image-jeremy.png" alt="profile picture">
+        <div>
+          <p>Report for</p>
+          <h1 class="name">Jeremy Robson</h1>
+        </div>
+      </div>
+      <div class="selector">
+        <button type="button" id="daily">Daily</button>
+        <button type="button" id="weekly">Weekly</button>
+        <button type="button" id="monthly">Monthly</button>
+      </div>
+    </div>
+
+    <div class="card" id="Work">
+      <img src="/images/icon-work.svg">
+      <div class="card_content">
+        <div class="title">
+          <p>Work</p>
+          <object data="images/icon-ellipsis.svg"></object>
+        </div>
+        <div class="time">
+          <h1 class="current" id="current"></h1>
+          <p class="previous" id="previous"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="Play">
+      <img src="/images/icon-play.svg">
+      <div class="card_content">
+        <div class="title">
+          <p>Play</p>
+          <object data="images/icon-ellipsis.svg"></object>
+        </div>
+        <div class="time">
+          <h1 class="current" id="current"></h1>
+          <p class="previous" id="previous"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="Study">
+      <img src="/images/icon-study.svg">
+      <div class="card_content">
+        <div class="title">
+          <p>Study</p>
+          <object data="images/icon-ellipsis.svg"></object>
+        </div>
+        <div class="time">
+          <h1 class="current" id="current"></h1>
+          <p class="previous" id="previous"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="Exercise">
+      <img src="/images/icon-exercise.svg">
+      <div class="card_content">
+        <div class="title">
+          <p>Exercise</p>
+          <object data="images/icon-ellipsis.svg"></object>
+        </div>
+        <div class="time">
+          <h1 class="current" id="current"></h1>
+          <p class="previous" id="previous"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="Social">
+      <img src="/images/icon-social.svg">
+      <div class="card_content">
+        <div class="title">
+          <p>Social</p>
+          <object data="images/icon-ellipsis.svg"></object>
+        </div>
+        <div class="time">
+          <h1 class="current" id="current"></h1>
+          <p class="previous" id="previous"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="Selfcare">
+      <img src="/images/icon-self-care.svg">
+      <div class="card_content">
+        <div class="title">
+          <p>Self Care</p>
+          <object data="images/icon-ellipsis.svg"></object>
+        </div>
+        <div class="time">
+          <h1 class="current" id="current"></h1>
+          <p class="previous" id="previous"></p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <div class="attribution">
+    <p>Only work for desktop and mobile phone resolution.</p>
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/TorHamm">Klakawee Sukuntaporn</a>.</p>
+  </div>
+
+  <script src="scripts/app.js" type="module"></script>
+
+</body>
+</html>

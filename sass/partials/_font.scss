@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: 'Rubik';
+    line-height: auto;
+}
+
+//! No change
+p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+button {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.title p{
+    font-weight: 500;
+    font-size: 18px;
+}
+//!------------
+
+.name {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.current {
+    font-weight: 300;
+    font-size: 32px;
+}
+
+
+
+@media only screen and (min-width:769px) {
+    .name {
+        font-size: 40px;
+    }
+    .current {
+        font-size: 56px;
+    }
+}
